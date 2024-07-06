@@ -28,7 +28,7 @@ const CategoryQuotes = () => {
       setQuotes([]);
     }
     setIsLoading(false);
-  }, []);
+  }, [category]);
 
   useEffect(() => {
     void fetchQuotes();
